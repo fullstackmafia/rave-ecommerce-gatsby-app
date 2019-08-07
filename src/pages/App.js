@@ -2,7 +2,8 @@ import React from "react"
 import RavePaymentModal from "react-ravepayment"
 import "../components/layout.css"
 
-const KEY = process.env.RAVE_KEY;
+const KEY = process.env.RAVE_KEY
+
 class App extends React.CompOnent {
   state = {
     products: {
