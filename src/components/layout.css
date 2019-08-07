@@ -620,3 +620,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}

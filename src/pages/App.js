@@ -1,6 +1,6 @@
 import React from "react"
 import RavePaymentModal from "react-ravepayment"
-import "../components/styles.css"
+import "../components/layout.css"
 
 class App extends React.Component {
   state = {
