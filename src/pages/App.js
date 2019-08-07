@@ -2,7 +2,7 @@ import React from "react"
 import RavePaymentModal from "react-ravepayment"
 import "../components/layout.css"
 
-const KEY = process.env.RAVE_KEY;
+const KEY = process.env.RAVE_KEY
 
 class App extends React.Component {
   state = {
@@ -43,6 +43,7 @@ class App extends React.Component {
           "https://res.cloudinary.com/fullstackmafia/image/upload/v1565114638/mc5x0tqvkiey34yb4mdt.jpg",
       },
     },
+    //key: "FLWPUBK-6178f3e62e2c6202e1712d16bea059c1-X",
     email: "ugwuraphael@gmail.com",
   }
 
