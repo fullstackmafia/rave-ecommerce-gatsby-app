@@ -68,7 +68,7 @@ class App extends React.Component {
     return Object.keys(this.state.products).map(productID => (
       <div>
         <h3>{this.state.products[productID].item}</h3>
-        <h4>Price: {this.state.products[productID].price}</h4>
+        <h4>Price: {this.state.products[productID].price} NGN</h4>
         <p>Description: {this.state.products[productID].description}</p>
         <img
           width={240}
