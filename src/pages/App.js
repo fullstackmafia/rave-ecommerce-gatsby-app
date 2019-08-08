@@ -2,7 +2,7 @@ import React from "react"
 import RavePaymentModal from "react-ravepayment"
 import "../components/layout.css"
 
-//const KEY = process.env.RAVE_KEY
+const KEY = process.env.RAVE_KEY
 
 class App extends React.Component {
   state = {
@@ -43,7 +43,6 @@ class App extends React.Component {
           "https://res.cloudinary.com/fullstackmafia/image/upload/v1565114638/mc5x0tqvkiey34yb4mdt.jpg",
       }
     },
-    key: "FLWPUBK_TEST-fff07b07a48e7ddbebb1ec034211b33d-X",
     email: "ugwuraphael@gmail.com",
   }
 
@@ -84,7 +83,7 @@ class App extends React.Component {
           currency="USD"
           reference={this.getReference()}
           email={this.state.email}
-          ravePubKey={this.state.key}
+          ravePubKey={KEY}
           callback={this.callback}
           close={this.close}
           isProduction={true}
