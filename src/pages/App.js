@@ -89,9 +89,7 @@ class App extends React.Component {
           isProduction={false}
           subaccounts={[
             {
-              id: "RS_1803DD02D99617214A42D34B4508A094",
-                transaction_charge_type: "percentage",
-                transaction_charge: "0.05"
+              id: "RS_1803DD02D99617214A42D34B4508A094"
             }
           ]}
             
