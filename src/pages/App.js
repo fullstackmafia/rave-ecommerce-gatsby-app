@@ -86,7 +86,7 @@ class App extends React.Component {
           ravePubKey={KEY}
           callback={this.callback}
           close={this.close}
-          isProduction={false}
+          isProduction={true}
           subaccounts={[
             {
               id: "RS_1803DD02D99617214A42D34B4508A094"
