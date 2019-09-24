@@ -80,13 +80,22 @@ class App extends React.Component {
           amount={this.state.products[productID].price}
           text="Pay Here"
           class="payButton"
-          currency="USD"
+          currency="NGN"
           reference={this.getReference()}
           email={this.state.email}
           ravePubKey={KEY}
           callback={this.callback}
           close={this.close}
-          isProduction={true}
+          isProduction={false}
+          subaccounts={[
+            {
+              id: "RS_1803DD02D99617214A42D34B4508A094",
+                transaction_charge_type: "percentage",
+                transaction_charge: "0.05"
+            }
+          ]}
+            
+          
           tag="button"
         />
       </div>
